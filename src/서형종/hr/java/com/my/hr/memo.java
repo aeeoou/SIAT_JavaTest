@@ -1,12 +1,12 @@
 package 서형종.hr.java.com.my.hr;
 /*
- hr.java.24.05
+ hr.java.24.05.08 ~ 10 (16:40 까지)
  
-산출물
+- 산출물
 최한석.hr.java.zip
 
  
-요구사항
+- 요구사항
 1.1 앱은, A회사의 인사팀에서 아래 HR 업무를 하기 위해 사용한다.
 1.2 A회사에서 일하는 노동자들을 관리한다.
 
@@ -47,7 +47,7 @@ package 서형종.hr.java.com.my.hr;
 6.5 산출물은 시연 합격한 후에 제출합니다.
 
 
-시연순서
+- 시연순서
 1. 최한석.hr.java.zip 을 eclipse 에 import한다.
 2. Main.class 를 실행한다.
 3. 정상흐름을 연출한다.
