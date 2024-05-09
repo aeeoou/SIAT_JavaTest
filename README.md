@@ -37,3 +37,15 @@ Service는 비즈니스 로직을 구현하고 실행하는 역할
 어러 DAO를 조합하여 하나의 트랜잭션으로 비즈니스 작업을 수행
 서비스는 주로 사용자의 요청에 따라 적절한 도메인 객체를 생성하고 이를 조작하여 결과를 반환
 
+
+Persitence Layer (DAO) = 읽고 쓴다. 데이터를 다루는 객체를 모아둔 영역
+↑
+dependency
+↓
+Service Layer (Service) = 화면에서 입력 받아서 업무를 처리하는 영역
+↑
+dependency
+↓
+Presentaion Layer (Io) = 화면의 입,출력을 다루는 영역
+
+
