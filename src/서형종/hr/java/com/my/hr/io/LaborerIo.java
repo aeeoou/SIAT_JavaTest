@@ -51,7 +51,7 @@ public class LaborerIo {
 	}
 	
 	private void displayLaborers() {
-		System.out.println("***** 노동자 목록 *****");
+		System.out.println("******** 노동자 목록 ********");
 		System.out.println("ID\t이름\t입사일");
 		for(Laborer laborer : laborerService.getAllLaborers()) {
 			System.err.println(laborer.getLaborerId() + "\t" +
@@ -65,7 +65,7 @@ public class LaborerIo {
 	}
 	
 	private void addLaborer() {
-		System.out.println("***** 노동자 추가 *****");
+		System.out.println("********* 노동자 추가 *********");
 		System.out.print("이름 : ");
 		String laborerName = sc.nextLine();
 		LocalDate hireDate = getValidDateInput("입사일(YYYY-MM-DD): ");
